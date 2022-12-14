@@ -1,0 +1,60 @@
+{
+    "presentacion":
+    {
+        "hola": "Hello",
+        "soy": "I am your friend",
+        "sobremi": "about me",
+        "conocimientos": "knowledge",
+        "proyectos": "projects",
+        "contacto": "Contact",
+        "pais": "'nationality': ",
+        "pais2": "'colombian'",
+        "sexo": "'sex':  ",
+        "sexo2": "'male'",
+        "liderazgo": "leadership = true",
+        "eficiencia": "efficiency = true",
+        "procrastinar": "to procrastinate = false",
+        "portafolio": "portfolio",
+        "edad": "'age': ",
+        "estas": "💖 you are in my web portfolio 💖",
+        "name": "'name': ",
+        "as": "Briefcase"
+    },
+    "sobremi":
+    {
+        "descripcion": "lorem ipsad inventore enim autem sapiente vel commodi libero iste explicabo nihil non fugiat tempora error odit hic iure excepturi possimus voluptate ea. Nihil blanditiis quisquam asperiores ipsum sequi nesciunt reiciendis recusandae eaque!. ''You do not have to be a genius, a visionary or a graduate to be successful. Everything you What you need is perspective and a dream.'' Michael Dell",
+        "titulo": "Obtained degree ",
+        "instituto": "Institute ",
+        "year": "year ",
+        "tecnico": " Technician in Software programming",
+        "mejor": "( Recognition as the best apprentice)",
+        "ing": "Systems engineer",
+        "cursando": "(Currently studying the first semester)",
+        "fundamentos": "Programming Fundamentals",
+        "sobremi": "ABOUT ME",
+        "saludo": "¡Hola! Mi Nombre Es Juan Diego Ramirez Mogotocoro. Soy un Desarrollador Web FullStack",
+        "estudios": "ESTUDIOS",
+        "aspirar": "degree has to aspire ",
+        "ver": "Watch 🎓",
+        "frase": "''The only source of knowledge is experience''"
+    },
+    "proyectos":
+    {
+        "proyectos": "Proyectos",
+        "titulo": "Titulo..",
+        "visitar": "Visit"
+    },
+    "contacto":
+    {
+        "contacto": "Contact",
+        "redes": "Social media",
+        "copipado": "Copied to clipboard successfully!",
+        "linea1": "Are you interested in contacting me?",
+        "linea2": "Send me a message to my Whatsapp through this form",
+        "linea3": "quick and easy 😉",
+        "nombre": "name",
+        "textArea": "Escribe Tu Mensaje Aqui.",
+        "ops": "oops! Please fill in all the fields 😁",
+        "enviar": "Send Message"
+    }
+}

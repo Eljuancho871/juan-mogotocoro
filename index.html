@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="shortcut icon" href="./img/descarga.jfif">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Slackey&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/bd3a6ec486.js" crossorigin="anonymous"></script>
+  <title>Portafolio - Juan Diego Ramirez Mogotocoro</title>
+</head>
+
+<body>
+  <div class="capa"></div>
+  <div class="menu" id="menu">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  <div class="capaMenu">
+    <ul class="ulMenu">
+      <li><a class="liMenu1" href="#sobre" data-section="presentacion" data-value="sobremi">Sobre Mi</a></li>
+      <li><a class="liMenu2" href="#conocimientos" data-section="presentacion"
+          data-value="conocimientos">Conocimientos</a></li>
+      <li><a class="liMenu3" href="#proyectos" data-section="presentacion" data-value="proyectos">Proyectos</a></li>
+      <li><a class="liMenu4" href="#contacto" data-section="presentacion" data-value="contacto">Contacto</a></li>
+      <li>
+        <div class="flags">
+          <div style="margin-right: 10px"><img class="es" src="./img/español2.png" alt="Español" data-languaje="es">
+          </div>
+          <div><img class="en" src="./img/ingles.jpg" alt="Ingles" data-languaje="en"></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="content">
+    <section id="presentacion">
+      <div class="contentFlags">
+        <div class="flags">
+          <div><img src="./img/español2.png" alt="Español" data-languaje="es"></div>
+          <div><img src="./img/ingles.jpg" alt="Ingles" data-languaje="en"></div>
+        </div>
+      </div>
+      <div class="textoPresentacion">
+        <div class="saludo">
+          <p id="tl-saludo1" data-section="presentacion" data-value="hola">Hola,</p>
+          <p id="tl-saludo2" data-section="presentacion" data-value="soy">soy tu amigo</p>
+          <p id="tl-saludo3">Freelancer santandereano</p>
+          <h1 id="tl-saludo4">Juan Mogotocoro</h1>
+        </div>
+        <div class="contentCardsCode">
+          <div class="backgroundCard"></div>
+          <div class="cardsCode card1">
+            <div class="headCard">
+              <p style="padding: 5px; font-weight: bold">HTML</p>
+              <div class="botonesCards">
+                <div style="background-color: #ff5f57"></div>
+                <div style="background-color: #ffbe2c"></div>
+                <div style="background-color: #2ec63e"></div>
+              </div>
+            </div>
+            <div class="codeCard">
+              <a href="index.html">
+                <p style="padding-bottom: 10px">
+                  <span class="etiquetasCard">&lt;title&gt;</span> <span data-section="presentacion"
+                    data-value="as">Portafolio</span>
+                  - Juan Diego
+                  <span class="etiquetasCard">&lt;/title&gt;</span>
+                </p>
+              </a>
+              <a href="#sobre">
+                <p>
+                  <span class="etiquetasCard">&lt;section&gt;</span><span data-section="presentacion"
+                    data-value="sobremi">Sobre Mi</span><span class="etiquetasCard">&lt;/section&gt;</span>
+                </p>
+              </a>
+              <a href="#conocimientos">
+                <p>
+                  <span class="etiquetasCard">&lt;section&gt;</span><span data-section="presentacion"
+                    data-value="conocimientos">Conocimientos</span><span class="etiquetasCard">&lt;/section&gt;</span>
+                </p>
+              </a>
+              <a href="#proyectos">
+                <p>
+                  <span class="etiquetasCard">&lt;section&gt;</span><span data-section="presentacion"
+                    data-value="proyectos">Proyectos</span><span class="etiquetasCard">&lt;/section&gt;</span>
+                </p>
+              </a>
+              <a href="#contacto">
+                <p>
+                  <span class="etiquetasCard">&lt;section&gt;</span><span data-section="presentacion"
+                    data-value="contacto">Contacto</span><span class="etiquetasCard">&lt;/section&gt;</span>
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="cardsCode card2">
+            <div class="headCard">
+              <p style="padding: 5px; font-weight: bold">JSON</p>
+              <div class="botonesCards">
+                <div style="background-color: #ff5f57"></div>
+                <div style="background-color: #ffbe2c"></div>
+                <div style="background-color: #2ec63e"></div>
+              </div>
+            </div>
+            <div class="codeCard">
+              <p><span class="etiquetasCard">{</span></p>
+              <div class="jsonCard">
+                <p>
+                  <span class="etiquetasCard" data-section="presentacion" data-value="name">"nombre": </span>"juan
+                  mogotocoro",
+                </p>
+                <p>
+                  <span class="etiquetasCard" data-section="presentacion" data-value="edad">"edad": </span><span
+                    id="edad"></span>,
+                </p>
+                <p>
+                  <span class="etiquetasCard" data-section="presentacion" data-value="pais">"nacionalidad": </span><span
+                    data-section="presentacion" data-value="pais2">"colombiano"</span>,
+                </p>
+                <p>
+                  <span class="etiquetasCard" data-section="presentacion" data-value="sexo">"sexo": </span><span
+                    data-section="presentacion" data-value="sexo2">masculino</span>
+                  <span id="cursor-animacion"> | </span>
+                </p>
+              </div>
+              <p><span class="etiquetasCard">}</span></p>
+            </div>
+          </div>
+          <div class="cardsCode card3">
+            <div class="headCard">
+              <p style="padding: 5px; font-weight: bold">JS</p>
+              <div class="botonesCards">
+                <div style="background-color: #ff5f57"></div>
+                <div style="background-color: #ffbe2c"></div>
+                <div style="background-color: #2ec63e"></div>
+              </div>
+            </div>
+            <div class="codeCard2">
+              <p><span class="etiquetasCard">const </span><span data-section="presentacion"
+                  data-value="liderazgo">liderazgo = true</span></p>
+              <p>
+                <span class="etiquetasCard">const </span><span data-section="presentacion"
+                  data-value="eficiencia">eficiencia = true</span>
+              </p>
+              <p>
+                <span class="etiquetasCard">const </span><span data-section="presentacion"
+                  data-value="procrastinar">procrastinar = false</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footerPresentacion" data-section="presentacion" data-value="estas">💖 estas en mi portafolio web 💖
+      </div>
+    </section>
+
+    <section id="sobreMi">
+      <div class="wave"></div>
+      <div class="d">
+        <h2 class="subTitle" id="sobre"></h2>
+        <div id="copitos"></div>
+        <div class="centerSobremi">
+          <div class="flexSobreMi">
+            <div class="contentImgSobremi">
+              <img class="imgYoFace" src="./img/yoCara.jpeg" alt="IMAGEN" />
+            </div>
+            <div class="textSobremi">
+              <h3 style="color: #2a2826; padding-bottom: 15px;" id="saludoTextoSobremi">
+
+              </h3>
+              <p data-section="sobremi" data-value="descripcion">
+                Lorem ipsad inventore enim autem sapiente
+                vel commodi libero iste explicabo nihil non fugiat tempora
+                error odit hic iure excepturi possimus voluptate ea. Nihil
+                blanditiis quisquam asperiores ipsum sequi nesciunt reiciendis
+                recusandae eaque!. "No tienes que ser un genio, un visionario o graduado para tener éxito. Todo lo que
+                necesitas es perspectiva y un sueño". Michael Dell
+              </p>
+            </div>
+          </div>
+        </div>
+        <center>
+          <h4 class="subTitle2" id="estudiossobremi"></h4>
+          <div class="logoEstudios">
+            <div>
+              <a target="_blank" href="https://www.cavirey.edu.co/"><img src="./img/cavirey.png" alt="IMAGEN" /></a>
+              <p class="sizeText">
+                <b data-section="sobremi" data-value="instituto">Instituto </b>Carlos Vicente Rey
+                <b data-section="sobremi" data-value="titulo">Título Obtenido</b> Bachiller
+              </p>
+              <p class="sizeText"><b data-section="sobremi" data-value="year">Año</b> 2022</p>
+              <a class="ver sizeText" href="#" target="_blank" data-section="sobremi" data-value="ver">Ver 🎓</a>
+            </div>
+            <div>
+              <a target="_blank" href="https://www.sena.edu.co/"><img src="./img/sena.png" alt="IMAGEN" /></a>
+              <p class="sizeText">
+                <b data-section="sobremi" data-value="instituto">Instituto </b>SENA <b data-section="sobremi"
+                  data-value="titulo">Título Obtenido</b><span data-section="sobremi" data-value="tecnico">Técnico en
+                  Programación de Software</span>
+              </p>
+              <p class="sizeText"><b data-section="sobremi" data-value="year">año</b> 2022</p>
+              <p class="sizeText" data-section="sobremi" data-value="mejor">(Reconocimiento como el mejor aprendiz)</p>
+              <a href="#" target="_blank" class="ver sizeText" data-section="sobremi" data-value="ver">Ver 🎓</a>
+            </div>
+            <div>
+              <a target="_blank" href="https://www.uts.edu.co/sitio/"><img src="./img/uts.png" alt="IMAGEN" /></a>
+              <p class="sizeText"><b data-section="sobremi" data-value="instituto">Instituto</b> Unidades Tecnologicas de Santander</p>
+              <p class="sizeText"><b data-section="sobremi" data-value="aspirar">Titulo ha aspirar</b><span data-section="sobremi"
+                  data-value="ing">Ingeniero en Sistemas</span></p>
+              <p class="sizeText" data-section="sobremi" data-value="cursando">(Cursando actualmente el primer semestre)</p>
+            </div>
+            <div style="    grid-column: 2;">
+              <a target="_blank" href="https://www.misiontic2022.gov.co/portal/"><img src="./img/misiontic.png"
+                  alt="IMAGEN" /></a>
+              <p class="sizeText">
+                <b data-section="sobremi" data-value="instituto">Instituto </b>Mision Tic
+                <b data-section="sobremi" data-value="titulo">Título Obtenido</b><span data-section="sobremi"
+                  data-value="fundamentos">Fundamentos de Programación</span>
+              </p>
+              <p class="sizeText"><b data-section="sobremi" data-value="year">Año</b> 2021</p>
+              <a class="ver sizeText" href="#" target="_blank" data-section="sobremi" data-value="ver">Ver 🎓</a>
+            </div>
+          </div>
+        </center>
+      </div>
+    </section>
+
+    <div style="position:relative ;">
+      <div class="wave2"></div>
+    </div>
+
+    <section id="conocimientos">
+      <h2 class="subTitle" id="conocimientosId"></h2>
+      <div class="tecnologias">
+        <div class="contentTecnologias">
+          <h4 class="nameTec">JavaScript</h4>
+          <div class="lineaTec">
+            <div class="lineaProgreso" id="lineaJs"></div>
+          </div>
+        </div>
+
+        <div class="contentTecnologias">
+          <h4 class="nameTec">React</h4>
+          <div class="lineaTec">
+            <div style="background-color: #5ed3f3;" id="lineaReact" class="lineaProgreso"></div>
+          </div>
+        </div>
+
+        <div class="contentTecnologias">
+          <h4 class="nameTec">NodeJS</h4>
+          <div class="lineaTec">
+            <div style="background-color: #6fb353" id="lineaNodejs" class="lineaProgreso"></div>
+          </div>
+        </div>
+
+        <div class="contentTecnologias">
+          <h4 class="nameTec">Python</h4>
+          <div class="lineaTec">
+            <div id="lineaPython" style="background: linear-gradient(to right, #3f7baa, #f7df69)" class="lineaProgreso">
+            </div>
+          </div>
+        </div>
+
+        <div class="contentTecnologias">
+          <h4 class="nameTec">PHP</h4>
+          <div class="lineaTec">
+            <div id="lineaPhp" style="background-color: #4d588e" class="lineaProgreso"></div>
+          </div>
+        </div>
+
+        <div class="contentTecnologias">
+          <h4 class="nameTec">MySQL</h4>
+          <div class="lineaTec">
+            <div id="lineaMysql" style="background: linear-gradient(to right, #046d8e, #ec9305)" class="lineaProgreso">
+            </div>
+          </div>
+        </div>
+
+        <div class="contentTecnologias">
+          <h4 class="nameTec">MongoDB</h4>
+          <div class="lineaTec">
+            <div id="lineaMongodb" style="background-color: #118d4d" class="lineaProgreso"></div>
+          </div>
+        </div>
+
+        <div class="fraseCono">
+          <h4 data-section="sobremi" data-value="frase">"La única fuente de conocimiento es la experiencia"</h4>
+          <p style="float: right;">Albert Einstein</p>
+        </div>
+      </div>
+    </section>
+    <br><br><br>
+    <section class="curved"></section>
+    <section class="proyectos" id="proyectos">
+      <h2 style="margin: 0px" class="subTitle" id="proyectosId"></h2>
+      <div id="proye">
+        <ul class="proyectoGrid">
+
+          <li>
+            <div class="contentProyecto">
+              <div class="fondoProyecto"></div>
+              <a href="#" target="_blank" style="display: contents;">
+                <div class="imgProyecto">
+                  <img class="hoverImg" src="https://cdn.pixabay.com/photo/2016/02/10/21/59/landscape-1192669__340.jpg"
+                    alt="IMAGEN">
+                </div>
+              </a>
+              <div class="descripcionProyecto">
+                <div class="sizeText" style="display: flex;justify-content: space-around;">
+                  <p>Titulo...</p>
+                  <p>11/12/2022</p>
+                  <a href="#" target="_blank" class="visitar" data-section="proyectos" data-value="visitar">Visitar</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="contentProyecto">
+              <div class="fondoProyecto"></div>
+              <a href="#" target="_blank" style="display: contents;">
+                <div class="imgProyecto">
+                  <img class="hoverImg" src="https://www.xtrafondos.com/descargar.php?id=5846&resolucion=2560x1440"
+                    alt="IMAGEN">
+                </div>
+              </a>
+              <div class="descripcionProyecto">
+                <div class="sizeText" style="display: flex;justify-content: space-around;">
+                  <p>Titulo...</p>
+                  <p>11/12/2022</p>
+                  <a href="#" target="_blank" class="visitar" data-section="proyectos" data-value="visitar">Visitar</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="contentProyecto">
+              <div class="fondoProyecto"></div>
+              <a href="#" target="_blank" style="display: contents;">
+                <div class="imgProyecto">
+                  <img class="hoverImg" src="https://cdn.pixabay.com/photo/2016/02/10/21/59/landscape-1192669__340.jpg"
+                    alt="IMAGEN">
+                </div>
+              </a>
+              <div class="descripcionProyecto">
+                <div class="sizeText" style="display: flex;justify-content: space-around;">
+                  <p>Titulo...</p>
+                  <p>11/12/2022</p>
+                  <a href="#" target="_blank" class="visitar" data-section="proyectos" data-value="visitar">Visitar</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div><br><br><br><br><br><br>
+    </section>
+
+    <section>
+      <h2 style="box-shadow: 0px -55px 31px 51px #131417;margin-top: 50px;margin-left: 20px;" class="subTitle"
+        id="contacto"></h2>
+      <div class="contentContacto">
+        <div class="contentForm">
+          <p data-section="contacto" data-value="linea1">¿Estas interesad@ en contactarme?</p>
+          <p data-section="contacto" data-value="linea2">Enviame un mensaje a mi Whatsapp atraves de este formulario</p>
+          <p data-section="contacto" data-value="linea3">Rapidito y facilito 😉</p>
+          <div class="form">
+            <div class="input-container ic1">
+              <input style="color: #131417;" id="firstname" class="input" type="text" placeholder=" " />
+              <div class="cut"></div>
+              <label for="firstname" class="placeholder" data-section="contacto" data-value="nombre"> Nombre</label>
+            </div>
+            <div style="margin-top: 10px;">
+              <textarea style="background: #ececec;color: #131417;" name="asunto" id="asunto" cols="30" rows="12"
+                placeholder="Escribe tu mensaje aqui."></textarea>
+            </div>
+            <div class="error">
+              <p data-section="contacto" data-value="ops">¡Ops! Porfavor llena todos los campo 😁</p>
+            </div>
+            <div>
+              <button id="btn" data-section="contacto" data-value="enviar">Enviar Mensaje</button>
+            </div>
+          </div>
+        </div>
+        <div class="contentLuna">
+          <img src="/img/luna3.png" alt="IMAGEN">
+        </div>
+      </div>
+      <center>
+        <div class="socialmedia">
+          <h4 class="sizeR" style="margin-top: 40px;" data-section="contacto" data-value="redes">Redes Sociales</h4>
+          <div class="main">
+            <a href="#" class="nav-item">
+              <div class="nav-links">
+                <i class="fab fa-instagram"></i>
+              </div>
+              <span class="nav-link-text">Instagram</span>
+            </a>
+            <a href="#" class="nav-item">
+              <div class="nav-links transition-all">
+                <i class="fa-brands fa-facebook"></i>
+              </div>
+              <span class="nav-link-text">Facebook</span>
+            </a>
+            <a class="nav-item" style="cursor: pointer;">
+              <div id="Whatsapp" class="nav-links transition-all">
+                <i id="Whatsapp" class="fa-brands fa-whatsapp"></i>
+              </div>
+              <span class="nav-link-text">Whatsapp</span>
+            </a>
+            <a href="#" class="nav-item">
+              <div class="nav-links transition-all">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <span class="nav-link-text">LinkedIn</span>
+            </a>
+            <a class="nav-item" style="cursor: pointer;">
+              <div id="email" class="nav-links transition-all">
+                <i id="email" class="fa-solid fa-envelope"></i>
+              </div>
+              <span class="nav-link-text">Email</span>
+            </a>
+          </div>
+        </div>
+      </center>
+  </div>
+  <div style="margin-bottom: 50px;"></div>
+  </section>
+  </div>
+  <div class="ventanaWhat">
+    <div class="contentWhat">
+      <p class="numero"><i class="fa-brands fa-whatsapp"></i>&nbsp;+57 3054260928 &nbsp;&nbsp;<i
+          class="fa-regular fa-copy" id="copyW" style="cursor: pointer;" title="Copiar"></i></p>
+      <i class="fa-solid fa-xmark" id="exit"></i>
+    </div>
+  </div>
+
+  <div class="ventanaEmail">
+    <div class="contentEmail">
+      <p class="correo2"><i class="fa-solid fa-envelope" title="Copiar"></i>&nbsp;juandiegoramirez098@gmail.com
+        &nbsp;&nbsp;<i class="fa-regular fa-copy" id="copyE" title="Copiar" style="cursor: pointer;"></i></p>
+      <i class="fa-solid fa-xmark" id="exit2"></i>
+    </div>
+  </div>
+
+  <div class="papeles">
+    <p data-section="contacto" data-value="copipado">¡Copiado en el portapapeles exitosamente!</p>
+  </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/Observer.min.js"></script>
+<script src="./js/app.js"></script>
+
+</html>

@@ -1,0 +1,60 @@
+{
+    "presentacion":
+    {
+        "hola": "hola",
+        "soy": "soy tu amigo",
+        "sobremi": "Sobre Mi",
+        "conocimientos": "Conocimientos",
+        "proyectos": "Proyectos",
+        "contacto": "Contacto",
+        "pais": "'nacionalidad': ",
+        "pais2": "'colombiano'",
+        "sexo": "'sexo':  ",
+        "sexo2": "'masculino'",
+        "liderazgo": "liderazgo = true",
+        "eficiencia": "eficiencia = true",
+        "procrastinar": "procrastinar = false",
+        "portafolio": "portafolio",
+        "edad": "'edad': ",
+        "estas": "💖 estas en mi portafolio web 💖",
+        "name": "'nombre':",
+        "as": "portafolio"
+    },
+    "sobremi":
+    {
+        "sobremi": "SOBRE MI",
+        "saludo": "¡Hola! Mi Nombre Es Juan Diego Ramirez Mogotocoro. Soy un Desarrollador Web FullStack",
+        "estudios": "ESTUDIOS",
+        "descripcion": "Lorem ipsad inventore enim autem sapiente vel commodi libero iste explicabo nihil non fugiat tempora error odit hic iure excepturi possimus voluptate ea. Nihil blanditiis quisquam asperiores ipsum sequi nesciunt reiciendis recusandae eaque!. ''No tienes que ser un genio, un visionario o graduado para tener éxito. Todo lo que necesitas es perspectiva y un sueño''. Michael Dell",
+        "titulo": "Título Obtenido ",
+        "instituto": "Instituto ",
+        "year": "año ",
+        "tecnico": "Técnico en Programación de Software",
+        "mejor": "(Reconocimiento como el mejor aprendiz)",
+        "ing": "Ingeniero en Sistemas",
+        "cursando": "(Cursando actualmente el primer semestre)",
+        "fundamentos": "Fundamentos de Programación",
+        "aspirar": "Titulo ha aspirar ",
+        "ver": "Ver 🎓",
+        "frase": "''La única fuente de conocimiento es la experiencia''"
+    },
+    "proyectos":
+    {
+        "proyectos": "Proyectos",
+        "titulo": "Titulo..",
+        "visitar": "Visitar"
+    },
+    "contacto":
+    {
+        "contacto": "Contacto",
+        "redes": "Redes Sociales",
+        "copipado": "¡Copiado en el portapapeles exitosamente!",
+        "linea1": "¿Estas interesad@ en contactarme?",
+        "linea2": "Enviame un mensaje a mi Whatsapp atraves de este formulario",
+        "linea3": "Rapidito y facilito 😉",
+        "nombre": "nombre",
+        "textArea": "Escribe Tu Mensaje Aqui.",
+        "ops": "¡Ops! Porfavor llena todos los campo 😁",
+        "enviar": "Enviar Mensaje"
+    }
+}
