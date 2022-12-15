@@ -859,7 +859,50 @@ button:hover{
 }
 }
 @media (max-width:1500px) {
-  
+  .textSobremi h3 {
+    font-size: 35px;
+}
+.textSobremi p {
+  font-size: 24px;
+}
+.subTitle {
+  font-size: 60px;
+}
+.sizeText {
+  font-size: 18px;
+}
+.logoEstudios div img {
+  width: 100px;
+}
+.fraseCono {
+  font-size: 25px;
+}
+.nameTec {
+  font-size: 24px;
+}
+.sizeR {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.nav-link-text {
+  font-size: 13px;
+}
+.contentForm {
+  text-align: center;
+  font-size: 25px;
+}
+.ulMenu li {
+  font-size: 30px;
+}
+.footerPresentacion {
+  font-size: 20px;
+}
+.form input, .form textarea, .form button {
+  font-size: 20px;
+}
+.contentLuna img {
+  width: 250px;
+}
   .cardsCode {
     width: 330px;
     height: 125px;
@@ -883,6 +926,10 @@ button:hover{
   padding: 0;
   rotate: 0deg;
   margin: 45px;
+  font-size: 40px;
+}
+#tl-saludo4 {
+  font-size: 40px;
 }
 .card3{
   display: none;
@@ -907,10 +954,10 @@ button:hover{
   padding-bottom: 0px;
 }
 .textSobremi h3 {
-  font-size: 3vw;
+  font-size: 30px;
 }
 .textSobremi p {
-  font-size: 2.5vw;
+  font-size: 25px;
 }
 .flexSobreMi {
   display: flex;
@@ -920,38 +967,33 @@ button:hover{
   align-items: center;
 }
 .ulMenu li {
-  font-size: 2.7vw;
+  font-size: 25px;
 }
 .flags div img {
-  width: 4vw;
+  width: 30px;
 }
 .subTitle2 {
-  font-size: 4vw;
+  font-size: 40px;
 }
 .logoEstudios div img {
-  width: 13vw;
+  width: 100px;
 }
 .sizeText {
-  font-size: 1.7vw;
+  font-size: 16px;
 }
 .nameTec {
-  font-size: 2.1vw;
+  font-size: 20px;
 }
 .fraseCono {
-  font-size: 2.5vw
-}
-.subTitle {
-  font-size: 5vw;
+  font-size: 20px;
 }
 .contentForm {
-  font-size: 2.1vw;
+  font-size: 20px;
 }
 .contentLuna img {
   width: 20vw;
 }
-.nav-link-text {
-  font-size: 1vw;
-}
+
 .proyectoGrid {
   grid-template-columns: repeat(1, 1fr);
 }
@@ -969,6 +1011,97 @@ button:hover{
     align-items: center;
 }
 }
-@media (max-width:600px){
+@media (max-width:768px){
+  .logoEstudios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subTitle {
+  font-size: 50px;
+}
+.contentContacto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-link-text {
+  font-size: 11px;
+}
+.contentLuna img {
+  width: 150px;
+}
+}
+@media (max-width:568px){
+  .saludo {
+    margin: 45px 0 45px 0;
+    font-size: 35px;
+}
+#tl-saludo4 {
+  font-size: 35px;
+}
+.footerPresentacion {
+  font-size: 16px;
+}
+.backgroundCard {
+  width: 350px;
+  height: 300px;
+}
+.cardsCode {
+  width: 291px;
+  height: 130px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+.contentImgSobremi {
+  width: 55%;
+}
+.textSobremi {
+  width: 90%;
+}
+.subTitle {
+  font-size: 40px;
+}
+.contentTecnologias {
+  width: 90%;
+}
+.subTitle {
+  margin-left: 0;
+}
+.proyectos {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 95%;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-top: 1rem;
+  gap: 10px;
+  margin-bottom: 0.5rem;
+  -ms-flex-pack: center;
+  justify-items: center;
+}
+.nav-item {
+  font-size: 25px;
+}
+.nav-item {
+  font-size: 25px;
+  width: 95%;
+  background: #2a2826;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+@media (max-width:480px){
   
 }
