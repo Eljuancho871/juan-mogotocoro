@@ -83,6 +83,15 @@ a{
     opacity: 0;
     font-size: 1.2vw;
 }
+.logoEstudios{
+  gap: 10px;
+}
+.logoEstudios div{
+  height: 100%;
+  border: 1.5px solid #2A2826;
+  padding: 10px;
+  border-radius: 5px;
+}
 .contentCardsCode{
     width: 450px;
     height: 400px;
