@@ -91,6 +91,7 @@ a{
   border: 1.5px solid #2A2826;
   padding: 10px;
   border-radius: 5px;
+  width: 100%;
 }
 .contentCardsCode{
     width: 450px;
@@ -292,7 +293,7 @@ a{
     display: grid;
     align-items: end;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 40px;
+    row-gap: 20px;
 }
 .sizeText{
   font-size: 1.2vw;
