@@ -1,4 +1,5 @@
 let date = new Date()
+let urlWhatsapp = ""
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -206,7 +207,13 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("firstname").value = ""
             document.getElementById("asunto").value = ""
             errorHtml.style.display = "none"
-            window.open(`https://wa.me/${numero}?text=Holaa!%20Juan%20Mogotocoro%20mi%20nombre%20es%20${nombreForm},%20Asunto:%20${asunto}`, "_blank")
+            if(localStorage.getItem("languaje") == "es"){
+                window.open( `https://wa.me/${numero}?text=Holaa!%20Juan%20Mogotocoro%20mi%20nombre%20es%20${nombreForm},%20Asunto:%20${asunto}`, "_blank")
+            }else if(localStorage.getItem("languaje") == "en"){
+                window.open(`https://wa.me/${numero}?text=Hi!%20Juan%20Mogotocoro%20my%20name%20is%20${nombreForm},%20affair:%20${asunto}`)
+            }else{
+                window.open( `https://wa.me/${numero}?text=Holaa!%20Juan%20Mogotocoro%20mi%20nombre%20es%20${nombreForm},%20Asunto:%20${asunto}`, "_blank")
+            }
         } else {
 
             errorHtml.style.display = "block"
@@ -373,7 +380,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         if(languaje == "es"){
-
             document.querySelector("#asunto").placeholder = "Escribe tu mensaje aqui."
         }else{
 
