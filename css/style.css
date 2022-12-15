@@ -811,6 +811,9 @@ button:hover{
   opacity: 0;
   display: none;
 }
+.card2{
+  transform: translate(120px, 0px);
+}
 .contentEmail{
   position: relative;
     width: 50%;
@@ -1103,5 +1106,23 @@ button:hover{
 }
 }
 @media (max-width:480px){
-  
+  .d {
+    padding-top: 20%;
+}
+.card2{
+  transform: translate(0, 0px);
+}
+.backgroundCard {
+  width: 100%;
+  height: 300px;
+}
+.cardsCode {
+  width: 100%;
+  height: 130px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+.contentCardsCode {
+  width: 95%;
+}
 }
