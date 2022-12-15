@@ -173,7 +173,7 @@
               <h3 style="color: #2a2826; padding-bottom: 15px;" id="saludoTextoSobremi">
 
               </h3>
-              <p data-section="sobremi" data-value="descripcion">
+              <p id="text9" data-section="sobremi" data-value="descripcion">
                 Lorem ipsad inventore enim autem sapiente
                 vel commodi libero iste explicabo nihil non fugiat tempora
                 error odit hic iure excepturi possimus voluptate ea. Nihil
@@ -187,7 +187,7 @@
         <center>
           <h4 class="subTitle2" id="estudiossobremi"></h4>
           <div class="logoEstudios">
-            <div>
+            <div id="targetEstudio1">
               <a target="_blank" href="https://www.cavirey.edu.co/"><img src="./img/cavirey.png" alt="IMAGEN" /></a>
               <p class="sizeText">
                 <b data-section="sobremi" data-value="instituto">Instituto </b>Carlos Vicente Rey
@@ -196,7 +196,7 @@
               <p class="sizeText"><b data-section="sobremi" data-value="year">Año</b> 2022</p>
               <a class="ver sizeText" href="#" target="_blank" data-section="sobremi" data-value="ver">Ver 🎓</a>
             </div>
-            <div>
+            <div id="targetEstudio2">
               <a target="_blank" href="https://www.sena.edu.co/"><img src="./img/sena.png" alt="IMAGEN" /></a>
               <p class="sizeText">
                 <b data-section="sobremi" data-value="instituto">Instituto </b>SENA <b data-section="sobremi"
@@ -207,14 +207,16 @@
               <p class="sizeText" data-section="sobremi" data-value="mejor">(Reconocimiento como el mejor aprendiz)</p>
               <a href="#" target="_blank" class="ver sizeText" data-section="sobremi" data-value="ver">Ver 🎓</a>
             </div>
-            <div>
+            <div id="targetEstudio3">
               <a target="_blank" href="https://www.uts.edu.co/sitio/"><img src="./img/uts.png" alt="IMAGEN" /></a>
-              <p class="sizeText"><b data-section="sobremi" data-value="instituto">Instituto</b> Unidades Tecnologicas de Santander</p>
-              <p class="sizeText"><b data-section="sobremi" data-value="aspirar">Titulo ha aspirar</b><span data-section="sobremi"
-                  data-value="ing">Ingeniero en Sistemas</span></p>
-              <p class="sizeText" data-section="sobremi" data-value="cursando">(Cursando actualmente el primer semestre)</p>
+              <p class="sizeText"><b data-section="sobremi" data-value="instituto">Instituto</b> Unidades Tecnologicas
+                de Santander</p>
+              <p class="sizeText"><b data-section="sobremi" data-value="aspirar">Titulo ha aspirar</b><span
+                  data-section="sobremi" data-value="ing">Ingeniero en Sistemas</span></p>
+              <p class="sizeText" data-section="sobremi" data-value="cursando">(Cursando actualmente el primer semestre)
+              </p>
             </div>
-            <div style="    grid-column: 2;">
+            <div id="targetEstudio4" style="    grid-column: 2;">
               <a target="_blank" href="https://www.misiontic2022.gov.co/portal/"><img src="./img/misiontic.png"
                   alt="IMAGEN" /></a>
               <p class="sizeText">
@@ -301,7 +303,7 @@
       <div id="proye">
         <ul class="proyectoGrid">
 
-          <li>
+          <li id="proyecto2">
             <div class="contentProyecto">
               <div class="fondoProyecto"></div>
               <a href="#" target="_blank" style="display: contents;">
@@ -320,7 +322,7 @@
             </div>
           </li>
 
-          <li>
+          <li id="proyecto3">
             <div class="contentProyecto">
               <div class="fondoProyecto"></div>
               <a href="#" target="_blank" style="display: contents;">
@@ -339,7 +341,7 @@
             </div>
           </li>
 
-          <li>
+          <li id="proyecto1">
             <div class="contentProyecto">
               <div class="fondoProyecto"></div>
               <a href="#" target="_blank" style="display: contents;">
@@ -366,9 +368,12 @@
         id="contacto"></h2>
       <div class="contentContacto">
         <div class="contentForm">
-          <p data-section="contacto" data-value="linea1">¿Estas interesad@ en contactarme?</p>
-          <p data-section="contacto" data-value="linea2">Enviame un mensaje a mi Whatsapp atraves de este formulario</p>
-          <p data-section="contacto" data-value="linea3">Rapidito y facilito 😉</p>
+          <div id="text6">
+            <p data-section="contacto" data-value="linea1">¿Estas interesad@ en contactarme?</p>
+            <p data-section="contacto" data-value="linea2">Enviame un mensaje a mi Whatsapp atraves de este formulario
+            </p>
+            <p data-section="contacto" data-value="linea3">Rapidito y facilito 😉</p>
+          </div>
           <div class="form">
             <div class="input-container ic1">
               <input style="color: #131417;" id="firstname" class="input" type="text" placeholder=" " />
@@ -436,7 +441,8 @@
 
   <div class="ventanaEmail">
     <div class="contentEmail">
-      <p class="correo2"><i class="fa-solid fa-envelope" title="Copiar"></i>&nbsp;juandiegoramirez098<span>@gmail.com</span>
+      <p class="correo2"><i class="fa-solid fa-envelope"
+          title="Copiar"></i>&nbsp;juandiegoramirez098<span>@gmail.com</span>
         &nbsp;&nbsp;<i class="fa-regular fa-copy" id="copyE" title="Copiar" style="cursor: pointer;"></i></p>
       <i class="fa-solid fa-xmark" id="exit2"></i>
     </div>
@@ -448,8 +454,6 @@
 
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/Observer.min.js"></script>
 <script src="./js/app.js"></script>
 
 </html>

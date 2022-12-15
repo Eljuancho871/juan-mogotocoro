@@ -48,20 +48,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const lineaTecnologias = (porcentaje, id) => {
 
-            gsap.to(`#${id}`, { duration: 1, width: `${porcentaje}%`, delay: 1 })
+        gsap.to(`#${id}`, { duration: 1, width: `${porcentaje}%`, delay: 1 })
     }
 
-    let observe1 = document.querySelector(".centerSobremi")
-    let observe2 = document.querySelector("#sobre") || document.querySelector("#aboutme")
-    let observe3 = document.querySelector("#estudiossobremi")
-    let observe4 = document.querySelector(".logoEstudios")
-    let observe5 = document.querySelector("#conocimientosId") || document.querySelector("#knowledge")
-    let observe6 = document.querySelector(".fraseCono")
-    let observe7 = document.querySelector("#proyectosId")|| document.querySelector("#proyects")
-    let observe8 = document.querySelector("#proye")
-    let observe9 = document.querySelector("#contacto") || document.querySelector("#contact")
-    let observe10 = document.querySelector(".contentContacto")
-    let observe12 = document.querySelector(".socialmedia")
+    let observe1 = document.querySelector(".contentImgSobremi")
+    let observe2 = document.querySelector("#sobre")
+    let observe3 = document.querySelector("#saludoTextoSobremi")
+    let observe4 = document.querySelector("#text9")
+    let observe5 = document.querySelector("#targetEstudio1")
+    let observe6 = document.querySelector("#targetEstudio2")
+    let observe7 = document.querySelector("#targetEstudio3")
+    let observe8 = document.querySelector("#targetEstudio4")
+    let observe9 = document.querySelector("#conocimientosId")
+    let observe10 = document.querySelector("#proyectosId")
+    let observe12 = document.querySelector("#proyecto1")
 
     let observe13 = document.querySelector("#lineaJs")
     let observe14 = document.querySelector("#lineaReact")
@@ -70,56 +70,63 @@ document.addEventListener("DOMContentLoaded", () => {
     let observe17 = document.querySelector("#lineaPhp")
     let observe18 = document.querySelector("#lineaMysql")
     let observe19 = document.querySelector("#lineaMongodb")
-    let observe20 = document.querySelector(".tecnologias")
+    let observe20 = document.querySelector(".fraseCono")
+    let observe21 = document.querySelector("#proyecto2")
+    let observe22 = document.querySelector("#proyecto3")
+    let observe23 = document.querySelector("#contacto")
+    let observe24 = document.querySelector("#text6")
+    let observe25 = document.querySelector(".form")
+    let observe26 = document.querySelector(".contentLuna")
+    let observe27 = document.querySelector(".socialmedia")
 
     const cargarElemento = (entradas, observe) => {
 
-    entradas.forEach(entrada => {
-        
-        if(entrada.isIntersecting){
+        entradas.forEach(entrada => {
 
-            if(entrada.target.id){
+            if (entrada.isIntersecting) {
 
-                switch (entrada.target.id) {
-                    case "lineaJs":
-                        lineaTecnologias("90", "lineaJs")
-                        break;
+                if (entrada.target.id) {
 
-                    case "lineaReact":
-                        lineaTecnologias("60", "lineaReact")
-                        break;
+                    switch (entrada.target.id) {
+                        case "lineaJs":
+                            lineaTecnologias("90", "lineaJs")
+                            break;
 
-                    case "lineaNodejs":
-                        lineaTecnologias("60", "lineaNodejs")
-                        break;
+                        case "lineaReact":
+                            lineaTecnologias("60", "lineaReact")
+                            break;
 
-                    case "lineaPython":
-                        lineaTecnologias("50", "lineaPython")
-                        break;
+                        case "lineaNodejs":
+                            lineaTecnologias("60", "lineaNodejs")
+                            break;
 
-                    case "lineaPhp":
-                        lineaTecnologias("30", "lineaPhp")
-                        break;
+                        case "lineaPython":
+                            lineaTecnologias("50", "lineaPython")
+                            break;
 
-                    case "lineaMysql":
-                        lineaTecnologias("40", "lineaMysql")
-                        break;
+                        case "lineaPhp":
+                            lineaTecnologias("30", "lineaPhp")
+                            break;
 
-                    case "lineaMongodb":
-                        lineaTecnologias("70", "lineaMongodb")
-                        break;
+                        case "lineaMysql":
+                            lineaTecnologias("40", "lineaMysql")
+                            break;
 
-                    default:
-                        gsap.to(`#${entrada.target.id}`, { duration: 1, opacity: 1, translateY: "0" })
-                        break;
+                        case "lineaMongodb":
+                            lineaTecnologias("70", "lineaMongodb")
+                            break;
+
+                        default:
+                            gsap.to(`#${entrada.target.id}`, { duration: 1, opacity: 1, translateY: "0" })
+                            break;
+                    }
+                }
+                else {
+
+                    gsap.to(`.${entrada.target.className}`, { duration: 1, opacity: 1, translateY: "0" })
                 }
             }
-            else{
-                
-                gsap.to(`.${entrada.target.className}`, { duration: 1, opacity: 1, translateY: "0" })
-            }
-        }
-    });
+        });
     }
 
     const Observador = new IntersectionObserver(cargarElemento, {
@@ -147,6 +154,13 @@ document.addEventListener("DOMContentLoaded", () => {
     Observador.observe(observe18)
     Observador.observe(observe19)
     Observador.observe(observe20)
+    Observador.observe(observe21)
+    Observador.observe(observe22)
+    Observador.observe(observe23)
+    Observador.observe(observe24)
+    Observador.observe(observe25)
+    Observador.observe(observe26)
+    Observador.observe(observe27)
 
 
     document.getElementById("edad").innerHTML = date.getFullYear() - 2006
@@ -207,12 +221,12 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("firstname").value = ""
             document.getElementById("asunto").value = ""
             errorHtml.style.display = "none"
-            if(localStorage.getItem("languaje") == "es"){
-                window.open( `https://wa.me/${numero}?text=Holaa!%20Juan%20Mogotocoro%20mi%20nombre%20es%20${nombreForm},%20Asunto:%20${asunto}`, "_blank")
-            }else if(localStorage.getItem("languaje") == "en"){
+            if (localStorage.getItem("languaje") == "es") {
+                window.open(`https://wa.me/${numero}?text=Holaa!%20Juan%20Mogotocoro%20mi%20nombre%20es%20${nombreForm},%20Asunto:%20${asunto}`, "_blank")
+            } else if (localStorage.getItem("languaje") == "en") {
                 window.open(`https://wa.me/${numero}?text=Hi!%20Juan%20Mogotocoro%20my%20name%20is%20${nombreForm},%20affair:%20${asunto}`)
-            }else{
-                window.open( `https://wa.me/${numero}?text=Holaa!%20Juan%20Mogotocoro%20mi%20nombre%20es%20${nombreForm},%20Asunto:%20${asunto}`, "_blank")
+            } else {
+                window.open(`https://wa.me/${numero}?text=Holaa!%20Juan%20Mogotocoro%20mi%20nombre%20es%20${nombreForm},%20Asunto:%20${asunto}`, "_blank")
             }
         } else {
 
@@ -313,16 +327,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let textsToChange = document.querySelectorAll("[data-section]")
 
-        const changeLanguaje = async(languaje) => {
+        const changeLanguaje = async (languaje) => {
 
             const requestJson = await fetch(`./json/${languaje}.json`)
             const texts = await requestJson.json();
 
-            for(const textToChange of textsToChange){
+            for (const textToChange of textsToChange) {
 
                 const section = textToChange.dataset.section
                 const value = textToChange.dataset.value
-                
+
                 textToChange.textContent = texts[section][value]
 
             }
@@ -334,7 +348,7 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("contacto").innerHTML = ""
             document.getElementById("saludoTextoSobremi").innerHTML = ""
 
-            if(languaje == "en"){
+            if (languaje == "en") {
 
                 textSpan("ABOUT ME", document.getElementById("sobre"))
                 textSpan("STUDIES", document.getElementById("estudiossobremi"))
@@ -343,7 +357,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 textSpan("CONTACT", document.getElementById("contacto"))
                 textSpan("Hello! My name is Juan Diego Ramirez Mogotocoro. I am a FullStack Web Developer", document.getElementById("saludoTextoSobremi"))
                 document.querySelector("#asunto").placeholder = "Write Your Message Here."
-            }else{
+            } else {
 
                 textSpan("SOBRE MI", document.getElementById("sobre"))
                 textSpan("ESTUDIOS", document.getElementById("estudiossobremi"))
@@ -355,39 +369,39 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
 
-        if(e.target.dataset.languaje == "es" || e.target.dataset.languaje == "en"){
+        if (e.target.dataset.languaje == "es" || e.target.dataset.languaje == "en") {
 
             localStorage.setItem("languaje", e.target.dataset.languaje)
-            changeLanguaje(e.target.dataset.languaje) 
+            changeLanguaje(e.target.dataset.languaje)
         }
-        
+
     })
 
     let textsToChange = document.querySelectorAll("[data-section]")
-    
-    const languajeLoad = async(languaje) => {
+
+    const languajeLoad = async (languaje) => {
 
         const requestJson = await fetch(`./json/${languaje}.json`)
         const texts = await requestJson.json();
 
-        for(const textToChange of textsToChange){
+        for (const textToChange of textsToChange) {
 
             const section = textToChange.dataset.section
             const value = textToChange.dataset.value
-            
+
             textToChange.textContent = texts[section][value]
 
         }
 
-        if(languaje == "es"){
+        if (languaje == "es") {
             document.querySelector("#asunto").placeholder = "Escribe tu mensaje aqui."
-        }else{
+        } else {
 
             document.querySelector("#asunto").placeholder = "Write Your Message Here."
         }
     }
-    if(localStorage.getItem("languaje")){
+    if (localStorage.getItem("languaje")) {
 
         languajeLoad(localStorage.getItem("languaje"))
-    } 
+    }
 })
