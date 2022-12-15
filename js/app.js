@@ -229,7 +229,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 gsap.to(".bar3", { duration: 0.3, bottom: "29px" })
                 gsap.to(".bar3", { duration: 0.3, delay: 0.3, rotate: "230deg" })
 
-                gsap.to(".capaMenu", { duration: 0.5, width: "100vh", height: "80vh" })
+                gsap.to(".capaMenu", { duration: 0.5, width: "100%", height: "100vh" })
                 gsap.to(".ulMenu", { duration: 0.3, opacity: "1", delay: 0.5 })
                 gsap.to(".capa", { duration: 0.5, opacity: 1, display: "block" })
                 activeMenu = true
