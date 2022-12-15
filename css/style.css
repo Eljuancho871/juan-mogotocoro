@@ -1134,6 +1134,10 @@ button:hover{
   .d {
     padding-top: 20%;
 }
+.correo2 {
+  font-size: 25px;
+  flex-direction: column;
+}
 .card2{
   transform: translate(0, 0px);
 }
