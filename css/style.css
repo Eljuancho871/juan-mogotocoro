@@ -1017,6 +1017,21 @@ button:hover{
   height: 240px;
   margin-bottom: 30px;
 }
+.contentWhat {
+  width: 90%;
+}
+#exit, #exit2 {
+  font-size: 50px;
+}
+.numero {
+  font-size: 25px;
+}
+.contentEmail {
+  width: 90%;
+}
+.correo2 {
+  font-size: 25px;
+}
 .imgProyecto {
   position: inherit;
   display: flex;
